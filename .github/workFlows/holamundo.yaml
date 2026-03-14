@@ -15,4 +15,4 @@ jobs:
           echo "Hola GitHub y hola mundo por aca sebastian vargas"
           pwd
           ls -l
-          echo "todo Ok por el momento"
+          echo "todo Ok"
