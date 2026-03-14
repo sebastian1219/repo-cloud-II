@@ -1,6 +1,8 @@
-name: Mi Primer Workflow 5to semestre
+name: Probando Workflow
 
-on: [push]
+on:
+  push:
+    branches: [ "main" ]
 
 jobs:
   run-time-script:
@@ -9,7 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: probando script workflows
-        run: echo "Hola GitHub y hola mundo por aca sebastian vargas"
-        PWD
-        ls -l
-	echo: "todo Ok por el momento"
+        run: |
+          echo "Hola GitHub y hola mundo por aca sebastian vargas"
+          pwd
+          ls -l
+          echo "todo Ok por el momento"
