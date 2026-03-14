@@ -1,0 +1,15 @@
+name: Mi Primer Workflow 5to semestre
+
+on: [push]
+
+jobs:
+  run-time-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: probando script workflows
+        run: echo "Hola GitHub y hola mundo por aca sebastian vargas"
+        PWD
+        ls -l
+	echo: "todo Ok por el momento"
